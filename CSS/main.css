@@ -1,0 +1,626 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body 
+{
+    margin: 0;
+    background-color: #fff7d6;
+}
+.intro
+{
+    position: relative;
+    min-height: 800px;
+}
+.slide 
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.logo 
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: #604734;
+    margin-top: 20px;
+}
+.name 
+{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+.name h1 
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 80px;
+    color: #604734;
+}
+.contact 
+{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.contact p 
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 18px;
+    color: #604734;
+    margin: 12px 0;
+}
+.contact a 
+{
+    color: #604734;
+    text-decoration: none;
+}
+.contact a:hover 
+{
+    text-decoration: underline;
+    color: #7fa8d6;
+}
+.photo 
+{
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    right: 50px;
+    top: 250px;
+}
+.anh1
+{
+    width: 210px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    border: 5px solid white;
+    border-radius: 5px;
+    transform: rotate(-6deg);
+    box-shadow: 0 3px 10px gray;
+    z-index: 2;
+}
+.anh2
+{
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    transform: rotate(2deg);
+    z-index: 1;
+}
+.space
+{
+    height: 100px;
+}
+.outline
+{
+    position: relative;
+    min-height: 450px;
+    background-color: #fff7d6;
+    overflow: hidden;
+}
+.outline .slide
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.outline h1
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #604734;
+    margin: 50px 0;
+}
+.menu
+{
+    width: 500px;
+    margin: 0 auto;
+}
+.menu-item
+{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.number
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 35px;
+    color: #604734;
+    display: inline-block;
+    width: 80px;
+}
+.box
+{
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.box:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.yellow
+{
+    background-color: #fff5a8;
+    color: #60330f;
+}
+.brown
+{
+    background-color: #60330f;
+    color: white;
+}
+.flower
+{
+    text-align: center;
+    font-size: 50px;
+    color: #9cc8e5;
+    margin: 10px 0 30px 0;
+}
+.about
+{
+    position: relative;
+    min-height: 800px;
+    background-color: #fff7d6;
+    overflow: hidden;
+}
+.about .slide
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.about h1
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 75px;
+    text-align: center;
+    color: #604734;
+    margin: 45px 0;
+}
+.about-content
+{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.about-photo
+{
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    transform: rotate(-5deg);
+    box-shadow: 0 5px 15px gray;
+}
+.about-photo img
+{
+    width: 100%;
+    display: block;
+}
+.about-text
+{
+    width: 500px;
+    color: #604734;
+    flex-shrink: 0;
+}
+.about-text h2
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.about-text p
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 12px 0;
+}
+.career
+{
+    margin-top: 25px;
+    padding: 18px 25px;
+    background-color: #fff5a8;
+    border-left: 6px solid #60330f;
+}
+.career h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #60330f;
+    margin: 0 0 8px 0;
+}
+.career p
+{
+    margin: 0;
+    font-size: 15px;
+}
+.about-flower
+{
+    text-align: center;
+    font-size: 45px;
+    color: #9cc8e5;
+    margin: 25px 0;
+}
+.project-section
+{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    background-color: #fff7d6;
+    color: #604734;
+    overflow: hidden;
+    padding: 50px 0 70px 0;
+    box-sizing: border-box;
+}
+.project-flower
+{
+    text-align: center;
+    font-size: 45px;
+    color: #9cc8e5;
+    margin: 10px 0 25px 0;
+}
+.section-number
+{
+    text-align: center;
+    font-family: 'Beth Ellen', cursive;
+    font-size: 25px;
+    color: #9cc8e5;
+    margin: 0;
+}
+.project-overview h1
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 65px;
+    text-align: center;
+    color: #604734;
+    margin: 10px 0;
+}
+.project-course
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #60330f;
+    margin: 0 0 50px 0;
+}
+.project-cover
+{
+    width: 850px;
+    max-width: 85%;
+    margin: 0 auto 70px auto;
+    display: flex;
+    align-items: center;
+    padding: 35px 45px;
+    background-color: #60330f;
+    color: white;
+    box-shadow: 0 6px 15px gray;
+    transform: rotate(-1deg);
+    box-sizing: border-box;
+}
+.project-cover-number
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 55px;
+    width: 100px;
+    flex-shrink: 0;
+    color: #fff5a8;
+}
+
+.project-cover-content
+{
+    flex: 1;
+    text-align: center;
+}
+.project-cover-content h2
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+.project-name-vn
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.overview-content
+{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto 70px auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.overview-label
+{
+    width: 240px;
+    flex-shrink: 0;
+    padding: 25px;
+    background-color: #fff5a8;
+    color: #60330f;
+    box-shadow: 0 4px 10px gray;
+    transform: rotate(2deg);
+    box-sizing: border-box;
+}
+.overview-label span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.overview-label h2
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 35px;
+    margin: 5px 0 0 0;
+}
+.overview-text
+{
+    flex: 1;
+}
+.overview-text p
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 10px 0;
+    color: #604734;
+}
+.project-meta
+{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.project-meta > div
+{
+    width: 30%;
+    padding: 20px;
+    background-color: #dcecf7;
+    text-align: center;
+    box-shadow: 0 3px 8px gray;
+    box-sizing: border-box;
+}
+.project-meta > div:nth-child(2)
+{
+    background-color: #fff5a8;
+}
+.project-meta > div:nth-child(3)
+{
+    background-color: #60330f;
+    color: white;
+}
+.project-meta span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.project-meta p
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0 0 0;
+}
+.skills-section
+{
+    width: 100%;
+    min-height: auto;
+    padding: 40px 0 70px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+.skills-section h1
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 65px;
+    text-align: center;
+    color: #604734;
+    margin: 10px auto 15px auto;
+}
+.skills-section h1::after
+{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #604734;
+    margin: 18px auto 25px auto;
+}
+.skills-subtitle
+{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #60330f;
+    margin: 0 auto 45px auto;
+}
+.skills-grid
+{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    text-align: left;
+}
+.skill-card
+{
+    min-height: 180px;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px gray;
+}
+.skill-card span
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 24px;
+}
+.skill-card h2
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 25px;
+    margin: 15px 0 10px 0;
+}
+.skill-card p
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+.yellow-skill
+{
+    background-color: #fff5a8;
+    color: #60330f;
+    transform: rotate(-1deg);
+}
+.brown-skill
+{
+    background-color: #60330f;
+    color: white;
+    transform: rotate(1deg);
+}
+.blue-skill
+{
+    background-color: #dcecf7;
+    color: #604734;
+    transform: rotate(-1deg);
+}
+.contribution-section
+{
+    width: 100%;
+    min-height: auto;
+    padding: 40px 0 70px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+.contribution-section h1
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 65px;
+    text-align: center;
+    color: #604734;
+    margin: 10px auto 15px auto;
+}
+.contribution-subtitle
+{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #60330f;
+    margin: 0 auto 45px auto;
+}
+.contribution-grid
+{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    text-align: left;
+}
+.contribution-card
+{
+    min-height: 190px;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px gray;
+}
+.contribution-card span
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 24px;
+}
+.contribution-card h2
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 25px;
+    margin: 15px 0 10px 0;
+}
+.contribution-card p
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+.yellow-contribution
+{
+    background-color: #fff5a8;
+    color: #60330f;
+    transform: rotate(-1deg);
+}
+.brown-contribution
+{
+    background-color: #60330f;
+    color: white;
+    transform: rotate(1deg);
+}
+.blue-contribution
+{
+    background-color: #dcecf7;
+    color: #604734;
+    transform: rotate(-1deg);
+}
+.contribution-note
+{
+    width: 700px;
+    max-width: 85%;
+    margin: 55px auto 0 auto;
+    padding: 20px 30px;
+    background-color: white;
+    border-left: 6px solid #60330f;
+    box-shadow: 0 3px 8px gray;
+    box-sizing: border-box;
+}
+.contribution-note span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #60330f;
+}
+.contribution-note p
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 10px 0 0 0;
+    color: #604734;
+}
