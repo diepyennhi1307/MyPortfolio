@@ -119,7 +119,7 @@ body
 }
 .menu
 {
-    width: 500px;
+    width: 700px;
     margin: 0 auto;
 }
 .menu-item
@@ -623,4 +623,314 @@ body
     line-height: 1.7;
     margin: 10px 0 0 0;
     color: #604734;
+}
+.section-4
+{
+    min-height: 1800px;
+    padding: 50px 0 100px 0;
+}
+.section-4 .project-overview h1
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 65px;
+    text-align: center;
+    color: #604734;
+    margin: 10px 0;
+}
+.section-4 .project-course
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #60330f;
+    margin-bottom: 55px;
+}
+.design-title
+{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto 35px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.design-title span
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 28px;
+    color: #9cc8e5;
+}
+.design-title h2
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 35px;
+    color: #604734;
+    margin: 0;
+}
+.design-title::after
+{
+    content: "";
+    height: 2px;
+    background-color: #60330f;
+    flex: 1;
+}
+.diagram-grid
+{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.diagram-card
+{
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 12px rgba(96, 71, 52, 0.25);
+    box-sizing: border-box;
+}
+.diagram-card:nth-child(1)
+{
+    transform: rotate(-1deg);
+}
+.diagram-card:nth-child(2)
+{
+    transform: rotate(1deg);
+}
+.diagram-card:nth-child(3)
+{
+    transform: rotate(1deg);
+}
+.diagram-card:nth-child(4)
+{
+    transform: rotate(-1deg);
+}
+.diagram-card h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #60330f;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.diagram-card img
+{
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    display: block;
+    background-color: #fafafa;
+}
+.diagram-number
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff5a8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #60330f;
+    z-index: 2;
+}
+.work-box
+{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto 80px auto;
+    display: flex;
+    box-shadow: 0 4px 12px rgba(96, 71, 52, 0.2);
+}
+.work-label
+{
+    width: 230px;
+    padding: 30px;
+    background-color: #fff5a8;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.work-label span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #60330f;
+}
+.work-content
+{
+    flex: 1;
+    padding: 25px 35px;
+    background-color: #fffdf0;
+    box-sizing: border-box;
+}
+.work-content p
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #604734;
+    margin: 0 0 12px 0;
+}
+.skills-line
+{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.skills-line strong
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #60330f;
+    margin-right: 5px;
+}
+.skills-line span
+{
+    padding: 6px 10px;
+    background-color: #dcecf7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #604734;
+}
+.ui-title
+{
+    margin-top: 20px;
+}
+.ui-laptop
+{
+    width: 850px;
+    max-width: 85%;
+    margin: 0 auto 65px auto;
+}
+.laptop-screen
+{
+    padding: 22px;
+    background-color: #60330f;
+    border-radius: 15px 15px 5px 5px;
+    box-shadow: 0 8px 15px rgba(96, 71, 52, 0.3);
+    box-sizing: border-box;
+}
+.ui-grid
+{
+    background-color: #fffdf0;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    box-sizing: border-box;
+}
+.ui-screen
+{
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.ui-screen img
+{
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    display: block;
+}
+.laptop-bottom
+{
+    width: 105%;
+    height: 18px;
+    margin-left: -2.5%;
+    background-color: #604734;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 5px 8px rgba(96, 71, 52, 0.25);
+}
+.ui-work-box
+{
+    margin-bottom: 80px;
+}
+.learn-box
+{
+    width: 850px;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 35px 45px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    background-color: #60330f;
+    color: white;
+    box-shadow: 0 6px 15px rgba(96, 71, 52, 0.3);
+    box-sizing: border-box;
+    transform: rotate(-1deg);
+}
+.learn-number
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 45px;
+    color: #fff5a8;
+    flex-shrink: 0;
+}
+.learn-content
+{
+    flex: 1;
+}
+.learn-content h2
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 32px;
+    margin: 0 0 15px 0;
+    color: #fff5a8;
+}
+.learn-content p
+{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 8px 0;
+    color: white;
+}
+.bottom-flower
+{
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+.diagram-card h3 a
+{
+    color: #60330f;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.diagram-card h3 a:hover
+{
+    color: #7fa8d6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.figma-link
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.figma-link a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #60330f;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.figma-link a:hover
+{
+    color: #7fa8d6;
+    text-decoration: underline;
 }
